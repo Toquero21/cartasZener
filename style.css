@@ -1,0 +1,110 @@
+body{
+    background-image:url(img/tapete.png);
+    background-repeat: repeat;
+    background-size: 10%;
+    z-index: 0;
+    position: relative;
+}
+
+header{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1{
+    color: #F4F1Ea;
+    font-size: 3.5rem;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+article{
+    font-family: 'Roboto', sans-serif;
+    color: #c4c4c4;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+mark{
+    background-color: transparent;
+    color: #a88d5e;
+}
+section{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+#cardTraveller{
+    position: absolute;  
+    top: 50%;            
+    left: 20%;           
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    transition: left 1s ease;
+    z-index: 1;          
+}
+
+#contador{
+    position: absolute;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 15vh;
+    color: #a88d5e;
+    left: 30%;
+    top:30%;
+    z-index: 3;
+}
+
+.zona{
+    display: flex;
+    flex: 1;
+    width: 15vh;
+    height: auto;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-items: center;
+}
+#divBarajar{}
+#divAdivinar{}
+
+#divDescarte{
+    position: relative;
+}
+
+#barajar{
+    background-color: #a88d5e;
+    color: black;
+    border:normal black 1.2px;
+    border-radius: 15px;
+    width: 15vh;
+    height: auto;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4vh;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 10%;
+    padding: 8px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;                
+    left: 10%;               
+    transform: translate(-50%, -50%);  
+    z-index: 4;
+    text-align: center;
+    
+}
+
+#barajar:hover{
+    background-color:#917544 ;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
