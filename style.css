@@ -42,7 +42,17 @@ section{
     position: relative;
 }
 
-#cardTraveller{
+.cardTraveller{
+    position: absolute;  
+    top: 50%;            
+    left: 20%;           
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    transition: left 1s ease;
+    z-index: 2;          
+}
+
+.carta{
     position: absolute;  
     top: 50%;            
     left: 20%;           
@@ -50,6 +60,16 @@ section{
     width: 25vh;
     transition: left 1s ease;
     z-index: 1;          
+}
+
+.descarte{
+    position: absolute;  
+    top: 50%;            
+    left: 20%;           
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    transition: left 1s ease, transform 1s ease;
+    z-index: 5;
 }
 
 #contador{
@@ -72,8 +92,6 @@ section{
     justify-content: center;
     align-items: center;
 }
-#divBarajar{}
-#divAdivinar{}
 
 #divDescarte{
     position: relative;
@@ -106,5 +124,30 @@ section{
     background-color:#917544 ;
     font-size: 4vh;
     font-weight: bold;
+}
+
+#controles{
+    display: none;
+    position: relative;
+    left: 45%;;
+    z-index: 4;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+#boton{
+    margin: 0;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+}
+
+#boton img{
+    width:13%;
+    height: auto;
+    display: block;
 }
 

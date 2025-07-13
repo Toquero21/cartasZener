@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/estrella.png" type="image/icon">
 </head>
 
 <body>
@@ -31,19 +32,25 @@
 
     <section>
         <div id="divBarajar" class="zona">
-            
             <button type="button" id="barajar">Barajar</button>
-            <img id="cardTraveller" src="img/reverso.png" alt="reverso de Carta" draggable="false">
+            <img class="carta" src="img/reverso.png" alt="reverso de Carta" draggable="false">
             <span id="contador">25</span>
-            barajar
         </div>
 
         <div id="divAdivinar" class="zona">
-            adivinar
+            
+            <div id="controles">
+                <button type="button" id="boton"><img src="img/circulo.png" alt="circulo"></button>
+                <button type="button" id="boton"><img src="img/cruz.png" alt="cruz"></button>
+                <button type="button" id="boton"><img src="img/cuadrado.png" alt="cuadrado"></button>
+                <button type="button" id="boton"><img src="img/estrella.png" alt="estrella"></button>
+                <button type="button" id="boton"><img src="img/ondas.png" alt="ondas"></button>
+            </div>
+            
         </div>
 
         <div id="divDescarte" class="zona">
-            dascarte
+
         </div>
     </section>
 
