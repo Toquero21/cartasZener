@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Experimento Zener</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/estrella.png" type="image/icon">
+</head>
+
+<body draggable="false">
+    <header>
+        <h1>Experimento Zener</h1>
+    </header>
+    <article>
+        Las cartas Zener son tarjetas o naipes que se utilizan en experimentos de percepción extrasensorial (ESP) o
+        clarividencia. Fueron diseñadas a principios de la década de 1930 por el psicólogo de la percepción Karl Zener
+        para realizar experimentos con su colega, el parapsicólogo J.B. Rhine. La serie original de experimentos ha sido
+        desacreditada, y la replicación ha resultado ser elusiva. <br>
+        Hoy vamos a realizar nuestro primer experimento Zener. Para ello, debemos tener en cuenta que tendremos que
+        seleccionar 25 cartas.<mark> Debemos de estar una estancia tranquila, </mark> pulsaremos al boton de barajar,<mark>
+        nos tomaremos 5 ó 10 sg. para mirar fijamente la carta ,</mark> seleccionaremos la creamos haber visto.
+        Los aciertos serán revelados al final.
+    </article>
+    
+    <audio id="shuffle" src="sound/shuffleCard.mp3" preload="auto"></audio>
+    <audio id="flip" src="sound/flipCard.mp3" preload="auto"></audio>
+
+    <section>
+        <div id="divBarajar" class="zona">
+            <button type="button" id="barajar">Barajar</button>
+            <img class="carta" src="img/reverso.png" alt="reverso de Carta" draggable="false">
+            <span id="contador">25</span>
+        </div>
+
+        <div id="divAdivinar" class="zona">
+            
+            <div id="controles">
+                <button type="button" class="boton" data-simbolo="circulo"><img src="img/circulo.png" alt="circulo"  draggable="false"></button>
+                <button type="button" class="boton" data-simbolo="cruz"><img src="img/cruz.png" alt="cruz" draggable="false"></button>
+                <button type="button" class="boton" data-simbolo="cuadrado"><img src="img/cuadrado.png" alt="cuadrado" draggable="false"></button>
+                <button type="button" class="boton" data-simbolo="estrella"><img src="img/estrella.png" alt="estrella" draggable="false"></button>
+                <button type="button" class="boton" data-simbolo="ondas"><img src="img/ondas.png" alt="ondas" draggable="false"></button>
+            </div>
+            
+        </div>
+
+        <div id="divDescarte" class="zona">
+
+        </div>
+    </section>
+
+    <div id="resultadoFinal">
+        <div id="resultadocaja">
+            <h2>Resultados del Experimento</h2>
+            <p id="resultadoTexto"></p>
+            <button id="cerrarResultado">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
