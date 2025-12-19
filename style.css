@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 *{
     user-select: none;
 }
 
+=======
+>>>>>>> 2eb067240b5668c3e41ed42a1314ffc2dda84f08
 body{
     background-image:url(img/tapete.png);
     background-repeat: repeat;
@@ -51,10 +54,26 @@ section{
     top: 50%;            
     left: 20%;           
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     width: clamp(120px , 18vw, 260px);
     aspect-ratio: 2/3;
     transition: left 1s ease, transform 1s ease;
     z-index: 2;          
+=======
+    width: 25vh;
+    transition: left 1s ease;
+    z-index: 1;          
+}
+
+.descarte{
+    position: absolute;  
+    top: 50%;            
+    left: 20%;           
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    transition: left 1s ease, transform 1s ease;
+    z-index: 5;
+>>>>>>> 2eb067240b5668c3e41ed42a1314ffc2dda84f08
 }
 
 #contador{
@@ -78,6 +97,13 @@ section{
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+#divDescarte{
+    position: relative;
+}
+
+>>>>>>> 2eb067240b5668c3e41ed42a1314ffc2dda84f08
 #barajar{
     background-color: #a88d5e;
     color: black;
@@ -107,6 +133,7 @@ section{
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 #divAdivinar{
     position: relative;
 }
@@ -124,10 +151,24 @@ section{
 }
 
 .boton{
+=======
+#controles{
+    display: none;
+    position: relative;
+    left: 45%;;
+    z-index: 4;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+#boton{
+>>>>>>> 2eb067240b5668c3e41ed42a1314ffc2dda84f08
     margin: 0;
     border: none;
     padding: 0;
     cursor: pointer;
+<<<<<<< HEAD
     background: none;
     width: 7vh;
     height: auto;
@@ -138,10 +179,19 @@ section{
 
 .boton img{
     width: 70%; 
+=======
+    display: inline-block;
+    background: none;
+}
+
+#boton img{
+    width:13%;
+>>>>>>> 2eb067240b5668c3e41ed42a1314ffc2dda84f08
     height: auto;
     display: block;
 }
 
+<<<<<<< HEAD
 #resultadocaja {
   background: #fff;
   color: #333;
@@ -212,3 +262,5 @@ section{
     z-index: 10;
 }
 
+=======
+>>>>>>> 2eb067240b5668c3e41ed42a1314ffc2dda84f08
