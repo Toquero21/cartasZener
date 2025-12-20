@@ -219,7 +219,7 @@ section{
   }
 
   #controles {
-    flex-direction: column;
+    flex-direction: row;
     gap:6px;
     width: 100%;
     left: 85%;
