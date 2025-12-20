@@ -248,12 +248,12 @@ section{
   }
 
   #controles .boton{
-    width: min(14vw, 60px);
-    height: min(14vw, 60px);
-  }
+    width: clamp(64px, 16vw, 90px);
+    height: clamp(64px, 16vw, 90px);
+}
+
 
   #controles .boton img{
-    width: 85%;
-    height: auto;
+    width: 75%;
   }
 }
