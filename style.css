@@ -220,10 +220,10 @@ section{
 
   #controles {
     flex-direction: row;
-    gap:6px;
+    gap:0px;
     width: 100%;
-    left: 85%;
-    top: 95%;
+    left: 50%;
+    top: 75%;
     bottom: 5%;
     transform: translateX(-50%);
     justify-content: center;
@@ -231,7 +231,7 @@ section{
   }
 
   .boton{
-    width: 3vh;
+    width: 2vh;
   }
 
   .section {
@@ -251,10 +251,13 @@ section{
     transform: translate(-50%, -50%) scale(0.8);
   }
 
-  button .boton{
-    width: 8vh;
-    height: 8vh;
-    margin: 4px 0;
+  #controles .boton{
+    width: min(14vw, 60px);
+    height: min(14vw, 60px);
   }
 
+  #controles .boton img{
+    width: 75%;
+    height: auto;
+  }
 }
