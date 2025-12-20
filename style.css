@@ -212,3 +212,43 @@ section{
     z-index: 10;
 }
 
+@media(max-width:768px){
+
+  .carta{
+    width: clamp(25vh);
+  }
+
+  #controles {
+    flex-direction: column;
+    gap:6px;
+    width: 100%;
+    left: 85%;
+    top: 12%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    justify-content: center;
+    z-index: 14;
+  }
+
+  .boton{
+    width: 7vh;
+  }
+
+  .section {
+    height: 65vh;
+  }
+
+  #contador{
+    font-size: 15vh;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+  }
+
+  .enDescarte {
+    left: 80%;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+
+}
