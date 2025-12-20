@@ -223,15 +223,15 @@ section{
     gap:0px;
     width: 100%;
     left: 50%;
-    top: 75%;
+    top: 70%;
     bottom: 5%;
     transform: translateX(-50%);
     justify-content: center;
     z-index: 14;
   }
 
-  .boton{
-    width: 2vh;
+  #divBarajar button{
+    width: 3vh;
   }
 
   .section {
@@ -257,7 +257,7 @@ section{
   }
 
   #controles .boton img{
-    width: 75%;
+    width: 85%;
     height: auto;
   }
 }
