@@ -215,7 +215,7 @@ section{
 @media(max-width:768px){
 
   .carta{
-    width: clamp(25vh);
+    width: clamp(18vh);
   }
 
   #controles {
@@ -231,7 +231,7 @@ section{
   }
 
   .boton{
-    width: 7vh;
+    width: 5vh;
   }
 
   .section {
@@ -239,7 +239,7 @@ section{
   }
 
   #contador{
-    font-size: 15vh;
+    font-size: 10vh;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
