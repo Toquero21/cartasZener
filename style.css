@@ -51,7 +51,7 @@ section{
     top: 50%;            
     left: 20%;           
     transform: translate(-50%, -50%);
-    width: clamp(120px , 18vw, 260px);
+    width: clamp(110px , 16vw, 220px);
     aspect-ratio: 2/3;
     transition: left 1s ease, transform 1s ease;
     z-index: 2;          
@@ -189,7 +189,7 @@ section{
 }
 
 /* Botón de cierre */
-#cerrarResultado {
+.btn {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     background: #007bff;

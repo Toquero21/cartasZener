@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const contador= document.getElementById('contador');
 
     const botonCierre=document.getElementById("cerrarResultado");
+    const btnReinicio= document.getElementById("btnReiniciar");
     const resultadoCapa= document.getElementById("resultadoFinal");
     const resultadoTexto= document.getElementById("resultadoTexto");
     
@@ -215,6 +216,10 @@ document.addEventListener('DOMContentLoaded',()=>{
     botonCierre.addEventListener('click',()=>{
 
         resultadoCapa.style.display="none";
+    })
+
+    btnReinicio.addEventListener('click',()=>{
+        location.reload();
     })
 
     //---Arranque del programa
